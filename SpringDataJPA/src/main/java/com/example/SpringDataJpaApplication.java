@@ -17,7 +17,8 @@ import com.example.repository.ContactMasterRepo;
 public class SpringDataJpaApplication {
 
 	public static void main(String[] args) {ConfigurableApplicationContext cf=SpringApplication.run(SpringDataJpaApplication.class, args);
-		ContactMasterRepo cme=cf.getBean(ContactMasterRepo.class);
+		
+						ContactMasterRepo cme=cf.getBean(ContactMasterRepo.class);
 		
 		/*ContactEntity contactEntity=new ContactEntity();
 		contactEntity.setContactId(103);
@@ -71,7 +72,7 @@ public class SpringDataJpaApplication {
 		
 		
 		
-		
+		System.out.println("Hello*********************************************************");
 		
 		
 		
